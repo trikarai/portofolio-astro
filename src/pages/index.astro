@@ -16,7 +16,7 @@ import Certificates from "../components/Certificates.astro";
 
 <Layout>
   <div id="top"></div>
-  <RetroNav />
+  <RetroNav client:only="react" />
   <Welcome />
   <AboutMe />
   <Skills />
