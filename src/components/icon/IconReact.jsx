@@ -1,4 +1,4 @@
-import IconRetroReact from "../../assets/icon/icon-retro-react.png";
+import IconRetroReact from "../../assets/icon/icon-retro-react.webp";
 
 export default function RetroNav() {
   return (

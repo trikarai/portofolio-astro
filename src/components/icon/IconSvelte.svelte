@@ -1,5 +1,5 @@
 <script>
-  import IconRetroVue from "../../assets/icon/icon-retro-svelte.png";
+  import IconRetroVue from "../../assets/icon/icon-retro-svelte.webp";
 </script>
 
 <div

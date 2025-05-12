@@ -1,5 +1,5 @@
 <script setup>
-import IconRetroVue from "../../assets/icon/icon-retro-vue.png";
+import IconRetroVue from "../../assets/icon/icon-retro-vue.webp";
 </script>
 
 <template>
