@@ -1,0 +1,42 @@
+---
+import { getAllExperiences } from "../../src/lib/experiences";
+
+const experiences = await getAllExperiences();
+
+const formatDate = (epoch: number) => {
+  const date = new Date(epoch * 1000); // multiply by 1000 if it's in seconds
+  return date.toLocaleDateString("en-US", {
+    year: "numeric",
+    month: "long",
+  });
+};
+---
+
+<!-- Experience -->
+<section
+  id="experiences"
+  class="mt-10 p-4 border-2 border-dotted border-purple-600 bg-yellow-100 retro-shadow"
+>
+  <h2 class="text-2xl text-purple-800 font-bold mb-2">💼 Past Experience</h2>
+  <ul class="list-disc pl-5 space-y-2">
+    {
+      experiences.map((item: any) => {
+        return (
+          <li>
+            <>
+              <strong>
+                {item.position} - {item.company.name}
+              </strong>{" "}
+              {formatDate(item.startDate)} -{" "}
+              {item.endDate ? formatDate(item.endDate) : "Present"}
+              <br />
+              <div set:html={item.description} />
+            </>
+          </li>
+        );
+      })
+    }
+  </ul>
+</section>
+
+<style></style>
