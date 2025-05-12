@@ -1,10 +1,12 @@
 <script>
+  import IconSvelte from "./icon/IconSvelte.svelte";
 </script>
 
 <section
   id="projects"
-  class="mt-10 p-4 border border-gray-700 bg-green-100 retro-shadow"
+  class="mt-10 p-4 border border-gray-700 bg-green-100 retro-shadow relative"
 >
+  <IconSvelte />
   <h2 class="text-2xl text-green-900 font-bold mb-4">
     📁 Featured Projects/Portofolio
   </h2>
