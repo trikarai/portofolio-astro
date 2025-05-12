@@ -7,11 +7,13 @@ import react from "@astrojs/react";
 import vue from "@astrojs/vue";
 
 import svelte from "@astrojs/svelte";
+import netlify from "@astrojs/netlify";
 
 // https://astro.build/config
 export default defineConfig({
   output: "server",
-  adapter: node({ mode: "standalone" }),
+  // adapter: node({ mode: "standalone" }),
+  adapter: netlify(),
   vite: {
     plugins: [tailwindcss()],
   },
