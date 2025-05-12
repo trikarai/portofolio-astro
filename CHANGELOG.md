@@ -2,6 +2,26 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [0.0.2](https://github.com/trikarai/portofolio-astro/compare/v0.0.1...v0.0.2) (2025-05-12)
+
+
+### Features
+
+* add Certificates section to showcase certifications ([80d36a8](https://github.com/trikarai/portofolio-astro/commit/80d36a8caf07c4862cf88a3b212a9790d5c90557))
+* add Netlify status badge to README for deployment visibility ([dc1d9a3](https://github.com/trikarai/portofolio-astro/commit/dc1d9a3593fb71134f42d10b45dd386f5717813b))
+* add Skills and Certificates components to index page ([84fe85d](https://github.com/trikarai/portofolio-astro/commit/84fe85dc57a2d7d1eb84fdfaf40eff0f89250652))
+* add Skills component to showcase technical skills and tools ([f0d4af7](https://github.com/trikarai/portofolio-astro/commit/f0d4af7e1e9c24560c3c6a382b3d777768a2e519))
+* implement mobile navigation with slide-in drawer and toggle button ([3d17481](https://github.com/trikarai/portofolio-astro/commit/3d1748136826c005d717a866be927cf628fb4b3c))
+* replace PNG icons with WEBP format for better performance ([cde20cd](https://github.com/trikarai/portofolio-astro/commit/cde20cd2c17206525ff9bc28649973a4f54684e5))
+* update .gitignore to include .netlify and remove unused node adapter import ([c8981d8](https://github.com/trikarai/portofolio-astro/commit/c8981d8b83d3e07516b098cf6a0315daab3be3a6))
+
+
+### Bug Fixes
+
+* adjust width class for layout responsiveness ([e7bff97](https://github.com/trikarai/portofolio-astro/commit/e7bff976752f62067fcfc0c7eecf39e46c507b1b))
+* specify client-side rendering for RetroNav component ([3efd186](https://github.com/trikarai/portofolio-astro/commit/3efd18640ffc9ec3b2975aa33f60b20430dd644e))
+* standardize link styles in ContactMe component ([2d0eaf6](https://github.com/trikarai/portofolio-astro/commit/2d0eaf6a1bc7e6dc4e8a2a23bc7c8dc4c6ffe9ff))
+
 ## 0.0.1 (2025-05-12)
 
 
